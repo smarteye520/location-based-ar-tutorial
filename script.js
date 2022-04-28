@@ -100,7 +100,7 @@ function renderPlaces(places) {
 
             if (el && el === ev.target) {
                 const div = document.querySelector('.instructions');
-                div.innerText = name;
+                div.innerText = 'clicked ' + name;
 
                 // const label = document.createElement('span');
                 // const container = document.createElement('div');
@@ -129,7 +129,7 @@ function renderPlaces(places) {
 
         // icon.addEventListener('loaded', () => window.dispatchEvent(new CustomEvent('gps-entity-place-loaded')));
 
-        // const clickListener = function (ev) {
+        // const clickListener1 = function (ev) {
         //     ev.stopPropagation();
         //     ev.preventDefault();
 
@@ -153,7 +153,7 @@ function renderPlaces(places) {
         //     }
         // };
 
-        // icon.addEventListener('click', clickListener);
+        // icon.addEventListener('click', clickListener1);
 
         // scene.appendChild(icon);
     });
